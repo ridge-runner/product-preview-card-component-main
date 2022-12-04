@@ -1,3 +1,125 @@
 /* MAIN STYLES */
 
-/* NOTE: USE CUBE.CSS METHODOLGY
+/* NOTE: USE Andy Bell's CUBE.CSS METHODOLGY  
+Found here: https://cube.fyi/ */
+
+/* General CSS Design Tokens */
+
+:root {
+    --drk-cyan:hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    --drk-blue: hsl(212, 21%, 48%);
+    --grey-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    /* TYPOGRAPHY */
+     --fs-primary: 1.142rem;  /* 14px */
+     --fs-accent: 2rem;  /* 32px */
+
+     --fw-500: 500;
+     --fw-700: 700;
+
+     --border-rad: 10px;
+     
+}
+
+/* COMPOSITIONAL CLASSES */
+
+body {
+    padding: 1.4rem 1rem;
+    background-color: var(--cream);
+}
+
+.flow {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content > * + * {
+    margin-top: 1rem;
+}
+
+/* UTILITY CLASSES */
+
+.background-clr-accent {
+    background-color: var(--white);
+}
+
+.background-clr-prime {
+    background-color: var(--cream);
+}
+
+.font-clr-prime {
+    color:var(--grey-blue);
+}
+
+.font-clr-accent-800 {
+    color:var(--drk-blue);
+}
+
+.font-clr-accent-700 {
+    color:var(--drk-cyan)
+}
+
+.font-fw-500 {
+    font-weight: 500;
+}
+
+.font-fw-700 {
+    font-weight: 700;
+}
+
+.font-fam-primary {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-fam-accent {
+    font-family: 'Fraunces', serif;
+}
+
+.font-fs-primary {
+    font-size: var(--fs-primary);
+}
+
+.font-fs-accent {
+    font-size: var(--fs-accent)
+}
+
+.border-rad {
+    border-radius: var(--border-rad);
+}
+
+/* BLOCKS */
+
+.button {
+    background-color: var(--drk-cyan);
+    border-radius: var(--border-rad);
+    color:var(--white);
+    text-decoration: none;
+}
+
+.card {
+    border-radius: var(--border-rad);
+    background-color: var(--white);
+}
+
+.card img {
+    border-radius: var(--border-rad) var(--border-rad) 0 0;
+}
+
+.card__copy {
+    padding: 1rem 1rem;
+}
+
+.card__category h2 {
+    font-variant:small-caps;
+    font-kerning: 10px;
+}
+
+.card__headline {
+    line-height: 1.9rem;
+}
+/* EXCEPTIONS */
+
