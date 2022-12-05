@@ -31,9 +31,10 @@ body {
     background-color: var(--cream);
 }
 
-.flow {
+.flow > * + * {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
     
 }
 
@@ -100,6 +101,11 @@ body {
     text-decoration: none;
 }
 
+img.button {
+    width: 16px;
+    height: 10px;
+}
+
 .card {
     border-radius: var(--border-rad);
     background-color: var(--white);
@@ -111,15 +117,32 @@ body {
 
 .card__copy {
     padding: 1rem 1rem;
+    font-size: 0.95rem;
 }
 
-.card__category h2 {
-    font-variant:small-caps;
-    font-kerning: 10px;
+.card__category {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 5px;
 }
 
 .card__headline {
     line-height: 1.9rem;
 }
+
+.card__prices {
+    display: flow;
+    flex-direction: row;
+}
+
+.card__prices-msrp {
+    margin: 0 0 1rem 1rem;
+    justify-self: center;
+}
+
+footer.attribution {
+    margin-top: 3rem;
+}
+
+
 /* EXCEPTIONS */
 
