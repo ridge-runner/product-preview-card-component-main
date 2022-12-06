@@ -94,18 +94,6 @@ body {
 
 /* BLOCKS */
 
-.button {
-    background-color: var(--drk-cyan);
-    border-radius: var(--border-rad);
-    color:var(--white);
-    text-decoration: none;
-}
-
-img.button {
-    width: 16px;
-    height: 10px;
-}
-
 .card {
     border-radius: var(--border-rad);
     background-color: var(--white);
@@ -137,6 +125,19 @@ img.button {
 .card__prices-msrp {
     margin: 0 0 1rem 1rem;
     justify-self: center;
+}
+
+.button {
+    background-color: var(--drk-cyan);
+    border-radius: var(--border-rad);
+    color:var(--white);
+}
+
+button img {
+    width: 1.5em;
+    height: auto;
+    margin: ;
+    display: inline;
 }
 
 footer.attribution {
