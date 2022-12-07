@@ -42,7 +42,7 @@ My strategy is to keep moving through the projects and not get stuck on some ina
 * [Grace](https://frontendmentor.slack.com/team/U01D6CR3C68)
 * [Alex Marshall](https://frontendmentor.slack.com/team/U02FRKAHLGJ)
 * [Tobi](https://frontendmentor.slack.com/team/U041FA1QR0X)
-* [Julio]{https://frontendmentor.slack.com/team/U03PBFJDANR)
+* [Julio](https://frontendmentor.slack.com/team/U03PBFJDANR)
 
 ### Frontend Mentor Project Reviewers
 Will add after submission.
